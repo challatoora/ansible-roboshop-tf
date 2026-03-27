@@ -16,7 +16,7 @@
 
 ansible_user: ec2-user
 ansible_password: DevOps321
-mongodb: mongodb-{{ env }}.daws88s.online
+MONGODB_HOST: mongodb-{{ env }}.daws88s.online
 redis: redis-{{ env }}.daws88s.online
 mysql: mysql-{{ env }}.daws88s.online
 rabbitmq: rabbitmq-{{ env }}.daws88s.online

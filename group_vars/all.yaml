@@ -3,7 +3,7 @@ ansible_password: DevOps321
 
 MONGODB_HOST: mongodb-dev.mreddy.online
 redis: redis-dev.mreddy.online
-mysql: mysql-dev.mreddy.online
+mysql: mysql-dev.mreddy.online 
 rabbitmq: rabbitmq-dev.mreddy.online
 catalogue: catalogue-dev.mreddy.online
 user: user-dev.mreddy.online
@@ -12,7 +12,7 @@ shipping: shipping-dev.mreddy.online
 payment: payment-dev.mreddy.online
 frontend: frontend-dev.mreddy.online
 catalogue: catalogue-dev.mreddy.online
-app_version: v3
+
 
 
 # ansible_user: ec2-user

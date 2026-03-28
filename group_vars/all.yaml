@@ -5,13 +5,13 @@ MONGODB_HOST: mongodb-dev.mreddy.online
 redis: redis-dev.mreddy.online
 mysql: mysql-dev.mreddy.online
 rabbitmq: rabbitmq-dev.mreddy.online
-catalogue: catalogue.backend_alb_listener_arn-dev.mreddy.online
-user: user.backend_alb_sg_id-dev.mreddy.online
-cart: cart.backend-alb-dev.mreddy.online
-shipping: shipping.backend-alb-dev.mreddy.online
-payment: payment.backend-alb-dev.mreddy.online
+catalogue: catalogue-dev.mreddy.online
+user: user-dev.mreddy.online
+cart: cart-dev.mreddy.online
+shipping: shipping-dev.mreddy.online
+payment: payment-dev.mreddy.online
 frontend: frontend-dev.mreddy.online
-catalogue: catalogue.backend-alb-dev.mreddy.online
+catalogue: catalogue-dev.mreddy.online
 app_version: v3
 
 

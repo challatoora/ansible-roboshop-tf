@@ -1,17 +1,17 @@
 - name: app setup
   ansible.builtin.import_role:
     name: common
-    tasks_from: app-setup.yaml
+    tasks_from: appsetup.yaml
 
 - name: java setup
   ansible.builtin.import_role:
     name: common
-    tasks_from: java-setup.yaml
+    tasks_from: javasetup.yaml
 
-- name: systemd setup
+- name: service system installation
   ansible.builtin.import_role:
     name: common
-    tasks_from: systemd-setup.yaml
+    tasks_from: systemd.yaml
 
 - name: install python dependencie
   ansible.builtin.pip:
@@ -25,7 +25,7 @@
   community.mysql.mysql_db:
     state: import
     name: all
-    login_host: "{{ MYSQL_HOST }}"
+    login_host: mysql-dev.mreddy.online
     login_user: root
     login_password: RoboShop@1
     target: "{{ item }}"

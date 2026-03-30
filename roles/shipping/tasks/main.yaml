@@ -27,7 +27,7 @@
     name: all
     login_host: mysql-dev.mreddy.online
     login_user: root
-    login_password: RoboShop@1
+    login_password: roboshop@1
     target: "{{ item }}"
   loop:
   - /app/db/schema.sql

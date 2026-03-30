@@ -11,19 +11,6 @@ cart: cart-dev.mreddy.online
 shipping: shipping-dev.mreddy.online
 payment: payment-dev.mreddy.online
 frontend: frontend-dev.mreddy.online
-catalogue: catalogue-dev.mreddy.online
 
 
 
-# ansible_user: ec2-user
-# ansible_password: DevOps321
-# MONGODB_HOST: mongodb-{{ env }}.daws88s.online
-# redis: redis-{{ env }}.daws88s.online
-# mysql: mysql-{{ env }}.daws88s.online
-# rabbitmq: rabbitmq-{{ env }}.daws88s.online
-# catalogue: catalogue.backend-alb-{{ env }}.daws88s.online
-# user: user.backend-alb-{{ env }}.daws88s.online
-# cart: cart.backend-alb-{{ env }}.daws88s.online
-# shipping: shipping.backend-alb-{{ env }}.daws88s.online
-# payment: payment.backend-alb-{{ env }}.daws88s.online
-# app_version: v3
